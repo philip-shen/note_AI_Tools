@@ -147,10 +147,15 @@ curl -X POST http://localhost:11434/api/generate -d '{
 [LM StudioでモデルがダウンロードできなかったのでOllamaを使ってOpen Interpreterを動かしてみた Last updated at 2024-01-04](https://qiita.com/wakaken/items/97e652e4665e0a2f3b89)  
 
 [AI コード支援機能をサービス、ローカルで構築して比較してみる Last updated at 2023-09-24](https://qiita.com/ryo-pptdev/items/5817bfc480526a3ea309#%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%AB%E7%92%B0%E5%A2%83%E3%81%AE%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97--%E3%83%87%E3%83%A2)  
+[ollama-webui/ollama-webui](https://github.com/ollama-webui/ollama-webui)
+
 
 [Running Docker GenAI Stack Using GPU Jan 29, 2024](https://dev.to/ajeetraina/running-docker-genai-stack-using-gpu-31bn)  
 [GenAI Stackを活用して、生成AIアプリの開発をスムーズに開始しよう Posted at 2024-01-28](https://qiita.com/tsuno0821/items/64bbd95a704531f9b332)   
 [docker/genai-stack](https://github.com/docker/genai-stack) 
+
+[Ubuntu18.04へのNeo4jインストール手順](https://qiita.com/hoku/items/66ce12e928524d92958a)
+[Ubuntu上でNeo4jを触ってみる](https://qiita.com/hoku/items/acbcbc0b114bff6439ec)
 
 [ruecat/ollama-telegram](https://github.com/ruecat/ollama-telegram?tab=readme-ov-file)  
 
