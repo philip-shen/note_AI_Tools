@@ -205,5 +205,3 @@ Running a Multimodal LLM locally with Ollama and LLaVA Feb 3, 2024](https://www.
 No. | Test Name 
 ------------------------------------ | --------------------------------------------- | 
 001 | Two Sum
-
-
