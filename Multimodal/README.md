@@ -5,6 +5,7 @@ Table of Contents
    * [Purpose](#purpose)
    * [ComfyUI-LLaVA-Captioner](#comfyui-llava-captioner)
       * [ComfyUI Installation](#comfyui-installation)
+      * [ComfyUI Plugins](#comfyui-plugins)      
       * [ComfyUI Running](#comfyui-running)
       * [ComfyUI-LLaVA-Captioner Installation](#comfyui-llava-captioner-installation)
       * [Reference](#reference)
@@ -48,66 +49,67 @@ pip install -r requirements.txt
 cd ~/projects/ComfyUI
 python main.py
 ```
-*go to: http://localhost:8188*
+```
+go to: http://localhost:8188*
+```
 
 <img src="images/ComfyUI_01.png" width="800" height="400">  
 
 ## ComfyUI Plugins  
 
-
-### ComfyUI-Manager（插件管理器）：  
+### ComfyUI-Manager：  
 [ltdrdata/ComfyUI-Manager](https://github.com/ltdrdata/ComfyUI-Manager)
 
-   1. goto ComfyUI/custom_nodes dir in terminal(cmd)
-   1. git clone https://github.com/ltdrdata/ComfyUI-Manager.git
-   1. Restart ComfyUI
+* 1 goto ComfyUI/custom_nodes dir in terminal(cmd)
+* 2 git clone https://github.com/ltdrdata/ComfyUI-Manager.git
+* 3 Restart ComfyUI
 
-### AIGODLIKE-ComfyUI-Translation（界面汉化）：  
+### AIGODLIKE-ComfyUI-Translation：  
 [AIGODLIKE/AIGODLIKE-ComfyUI-Translation](https://github.com/AIGODLIKE/AIGODLIKE-ComfyUI-Translation)
 
-   1. cd ComfyUI/custom_nodes
-   1. git clone https://github.com/AIGODLIKE/AIGODLIKE-COMFYUI-TRANSLATION.git
+* 1 cd ComfyUI/custom_nodes
+* 2 git clone https://github.com/AIGODLIKE/AIGODLIKE-COMFYUI-TRANSLATION.git
 
-### ComfyUI_Custom_Nodes_AlekPet(提示词中文输入)：  
+### ComfyUI_Custom_Nodes_AlekPet：  
 [AlekPet/ComfyUI_Custom_Nodes_AlekPet](https://github.com/AlekPet/ComfyUI_Custom_Nodes_AlekPet)
 
-   1. Open a terminal or command line interface.
-   1. Go to folder ..\ComfyUI\custom_nodes
-   1. Enter 
+* 1 Open a terminal or command line interface.
+* 2 Go to folder ..\ComfyUI\custom_nodes
+* 3 Enter 
    ```bash
    git clone https://github.com/AlekPet/ComfyUI_Custom_Nodes_AlekPet.git
    ```
-   1. After this command be created folder ComfyUI_Custom_Nodes_AlekPet
-   1. Run Comflyui....
+* 4 After this command be created folder ComfyUI_Custom_Nodes_AlekPet
+* 5 Run Comflyui....
 
-### sdxl_prompt_styler（SDXL提示词风格预设）：  
+### sdxl_prompt_styler：  
 [twri/sdxl_prompt_styler](https://github.com/twri/sdxl_prompt_styler)
 
-   1. Open a terminal or command line interface.
-   1. Navigate to the ComfyUI/custom_nodes/ directory.
-   1. Run the following command: 
-   ```bash
-   git clone https://github.com/twri/sdxl_prompt_styler.git
-   ```
-   1. Restart ComfyUI.
+* 1 Open a terminal or command line interface.
+* 2 Navigate to the ComfyUI/custom_nodes/ directory.
+* 3 Run the following command: 
+```bash
+git clone https://github.com/twri/sdxl_prompt_styler.git
+```
+* 4 Restart ComfyUI.
 
 ### ComfyUI-Custom-Scripts（辅助工具）：  
 [pythongosssss/ComfyUI-Custom-Scripts](https://github.com/pythongosssss/ComfyUI-Custom-Scripts)
 
-   1. Open a terminal or command line interface.
-   1. Navigate to the ComfyUI/custom_nodes/ directory.
-   1. Run the following command: 
-   ```bash
-   git clone https://github.com/pythongosssss/ComfyUI-Custom-Scripts.git
-   ```
+* 1 Open a terminal or command line interface.
+* 2 Navigate to the ComfyUI/custom_nodes/ directory.
+* 3 Run the following command: 
+```bash
+git clone https://github.com/pythongosssss/ComfyUI-Custom-Scripts.git
+```
 
 ### ComfyUI_UltimateSDUpscale (SD放大插件)：  
 [ssitu/ComfyUI_UltimateSDUpscale](https://github.com/ssitu/ComfyUI_UltimateSDUpscale)
 
-   1. Enter the following command from the commandline starting in ComfyUI/custom_nodes/  
-   ```bash
-   git clone https://github.com/ssitu/ComfyUI_UltimateSDUpscale --recursive
-   ```
+* 1 Enter the following command from the commandline starting in ComfyUI/custom_nodes/  
+```bash
+git clone https://github.com/ssitu/ComfyUI_UltimateSDUpscale --recursive
+```
 
 ## ComfyUI-LLaVA-Captioner Installation   
 
@@ -205,3 +207,4 @@ Running a Multimodal LLM locally with Ollama and LLaVA Feb 3, 2024](https://www.
 No. | Test Name 
 ------------------------------------ | --------------------------------------------- | 
 001 | Two Sum
+
