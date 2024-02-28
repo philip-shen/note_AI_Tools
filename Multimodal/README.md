@@ -39,13 +39,75 @@ git clone https://github.com/comfyanonymous/ComfyUI.git
 
 1. Dependencies  
 ```bash
+source ~/virtualenv/cuda118_pytorch/bin/activate
 pip install -r requirements.txt
 ```
 
 ## ComfyUI Running  
 ```bash
+cd ~/projects/ComfyUI
 python main.py
 ```
+*go to: http://localhost:8188*
+
+<img src="images/ComfyUI_01.png" width="800" height="400">  
+
+## ComfyUI Plugins  
+
+
+### ComfyUI-Manager（插件管理器）：  
+[ltdrdata/ComfyUI-Manager](https://github.com/ltdrdata/ComfyUI-Manager)
+
+   1. goto ComfyUI/custom_nodes dir in terminal(cmd)
+   1. git clone https://github.com/ltdrdata/ComfyUI-Manager.git
+   1. Restart ComfyUI
+
+### AIGODLIKE-ComfyUI-Translation（界面汉化）：  
+[AIGODLIKE/AIGODLIKE-ComfyUI-Translation](https://github.com/AIGODLIKE/AIGODLIKE-ComfyUI-Translation)
+
+   1. cd ComfyUI/custom_nodes
+   1. git clone https://github.com/AIGODLIKE/AIGODLIKE-COMFYUI-TRANSLATION.git
+
+### ComfyUI_Custom_Nodes_AlekPet(提示词中文输入)：  
+[AlekPet/ComfyUI_Custom_Nodes_AlekPet](https://github.com/AlekPet/ComfyUI_Custom_Nodes_AlekPet)
+
+   1. Open a terminal or command line interface.
+   1. Go to folder ..\ComfyUI\custom_nodes
+   1. Enter 
+   ```bash
+   git clone https://github.com/AlekPet/ComfyUI_Custom_Nodes_AlekPet.git
+   ```
+   1. After this command be created folder ComfyUI_Custom_Nodes_AlekPet
+   1. Run Comflyui....
+
+### sdxl_prompt_styler（SDXL提示词风格预设）：  
+[twri/sdxl_prompt_styler](https://github.com/twri/sdxl_prompt_styler)
+
+   1. Open a terminal or command line interface.
+   1. Navigate to the ComfyUI/custom_nodes/ directory.
+   1. Run the following command: 
+   ```bash
+   git clone https://github.com/twri/sdxl_prompt_styler.git
+   ```
+   1. Restart ComfyUI.
+
+### ComfyUI-Custom-Scripts（辅助工具）：  
+[pythongosssss/ComfyUI-Custom-Scripts](https://github.com/pythongosssss/ComfyUI-Custom-Scripts)
+
+   1. Open a terminal or command line interface.
+   1. Navigate to the ComfyUI/custom_nodes/ directory.
+   1. Run the following command: 
+   ```bash
+   git clone https://github.com/pythongosssss/ComfyUI-Custom-Scripts.git
+   ```
+
+### ComfyUI_UltimateSDUpscale (SD放大插件)：  
+[ssitu/ComfyUI_UltimateSDUpscale](https://github.com/ssitu/ComfyUI_UltimateSDUpscale)
+
+   1. Enter the following command from the commandline starting in ComfyUI/custom_nodes/  
+   ```bash
+   git clone https://github.com/ssitu/ComfyUI_UltimateSDUpscale --recursive
+   ```
 
 ## ComfyUI-LLaVA-Captioner Installation   
 
@@ -61,8 +123,12 @@ pip install llama-cpp-python
 
 ## Reference  
 [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI?tab=readme-ov-file#installing)  
+[【ai绘画】ComfyUI 插件安装](https://www.youtube.com/watch?v=KiLHnRtH2y8)  
+[ComfyUI从入门到精通系列-4.升高放大无极限](https://www.youtube.com/watch?v=Bvkt5ZfxTa8&list=PLK7sA3zrSa4s0tO8w2pdc7zPTcIAgS7ru&index=4)  
+
+
 ComfyUI LLaVA Captioner  
-[ceruleandeep/ComfyUI-LLaVA-Captioner](https://github.com/ceruleandeep/ComfyUI-LLaVA-Captioner)
+[ceruleandeep/ComfyUI-LLaVA-Captioner](https://github.com/ceruleandeep/ComfyUI-LLaVA-Captioner)  
 [pythongosssss/ComfyUI-WD14-Tagger](https://github.com/pythongosssss/ComfyUI-WD14-Tagger)    
 
 [WindowsPC に Stable Diffusion ComfyUI をインストールする方法 2023-10-27](https://qiita.com/zono_0/items/ea370c24a34284e07d03)  
