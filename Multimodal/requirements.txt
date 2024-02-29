@@ -1,0 +1,12 @@
+#torch == 2.0.0+cu118
+torchsde == 0.2.6
+#torchvision == 0.15.1+cu118
+einops
+transformers>=4.27.4
+safetensors>=0.3.0
+aiohttp
+pyyaml
+Pillow
+scipy
+tqdm
+psutil

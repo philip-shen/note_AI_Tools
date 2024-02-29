@@ -39,21 +39,41 @@ git clone https://github.com/comfyanonymous/ComfyUI.git
 *[vae-ft-mse-840000-ema-pruned.ckpt](https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.ckpt)
 
 1. Dependencies  
+
+Update python3.10 virtualenv package then create virtualenv  
 ```bash
-source ~/virtualenv/cuda118_pytorch/bin/activate
+sudo apt-get install python3.10-venv
+python3.10 -m venv  ~/virtualenv/ComfyUI
+```
+
+Check CUDA Version and teh check https://pytorch.org/ to install porper pytorch version  
+```bash
+nvidia-smi 
+
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+```
+
+Activate specific virtualenv and pip install packages  
+```bash
+source ~/virtualenv/ComfyUI/bin/activate
+
 pip install -r requirements.txt
 ```
 
 ## ComfyUI Running  
 ```bash
-cd ~/projects/ComfyUI
+cd ~/projects/ComfyUI 
+
 python main.py
 ```
+<img src="images/ComfyUI_00.png" width="800" height="600">  
+
+
 ```
 go to: http://localhost:8188*
 ```
 
-<img src="images/ComfyUI_01.png" width="800" height="400">  
+<img src="images/ComfyUI_01.png" width="1000" height="600">  
 
 ## ComfyUI Plugins  
 
@@ -122,6 +142,8 @@ pip install llama-cpp-python
 [llava-v1.5-7b-Q4_K.gguf](https://huggingface.co/jartine/llava-v1.5-7B-GGUF/resolve/main/llava-v1.5-7b-Q4_K.gguf)  
 [llava-v1.5-7b-mmproj-Q4_0.gguf](https://huggingface.co/jartine/llava-v1.5-7B-GGUF/resolve/main/llava-v1.5-7b-mmproj-Q4_0.gguf)  
 
+3. Run ComfyUI-LLaVA-Captioner  
+<img src="images/ComfyUI-LLaVA-Captioner_01.png" width="1000" height="600">
 
 ## Reference  
 [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI?tab=readme-ov-file#installing)  
