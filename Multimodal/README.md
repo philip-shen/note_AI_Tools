@@ -155,6 +155,8 @@ ComfyUI LLaVA Captioner
 [ceruleandeep/ComfyUI-LLaVA-Captioner](https://github.com/ceruleandeep/ComfyUI-LLaVA-Captioner)  
 [pythongosssss/ComfyUI-WD14-Tagger](https://github.com/pythongosssss/ComfyUI-WD14-Tagger)    
 
+[gokayfem/ComfyUI_VLM_nodesPublic](https://github.com/gokayfem/ComfyUI_VLM_nodes)  
+
 [WindowsPC に Stable Diffusion ComfyUI をインストールする方法 2023-10-27](https://qiita.com/zono_0/items/ea370c24a34284e07d03)  
 [ComfyUIで生成したpngから、WorkFlowを復元するPythonコードをGPT4の手助けで即席に作れたよ 2023-08-16](https://qiita.com/quittardis/items/781386c1072938ddeed1)  
 [WindowsPC に StabilityMatrix をインストールする方法 2023-10-28](https://qiita.com/zono_0/items/1638d9075497cf105512)  
