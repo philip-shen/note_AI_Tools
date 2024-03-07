@@ -5,6 +5,7 @@ Table of Contents
    * [Purpose](#purpose)
    * [LLava](#llava)
       * [Installation](#installation)
+      * [Clone this model repository from HuggingFace](#clone-this-model-repository-from-huggingface)
       * [CLI Inference](#cli-inference)
    * [ComfyUI-LLaVA-Captioner](#comfyui-llava-captioner)
       * [ComfyUI Installation](#comfyui-installation)
@@ -45,13 +46,19 @@ python3.10 -m venv  ~/virtualenv/llava
 
 ```bash
 pip install -r note_AI_Tools/Multimodal/requirements_llava.txt
-
 ```
+
+## Clone this model repository from HuggingFace  
+```bash
+git clone https://huggingface.co/liuhaotian/llava-v1.5-7b
+```  
 
 ## CLI Inference    
 ```bash
 python -m llava.serve.cli --model-path llava-v1.5-7b --image-file "image_file.png" --load-8bit
 ```
+
+<img src="images/LLaVA_Stock_Chart_6715.png" width="1600" height="500">  
 
 ## Reference  
 [haotian-liu/LLaVA](https://github.com/haotian-liu/LLaVA/tree/main)    
