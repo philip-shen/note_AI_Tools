@@ -3,6 +3,9 @@ Table of Contents
 
    * [Table of Contents](#table-of-contents)
    * [Purpose](#purpose)
+   * [LLava](#llava)
+      * [Installation](#installation)
+      * [CLI Inference](#cli-inference)
    * [ComfyUI-LLaVA-Captioner](#comfyui-llava-captioner)
       * [ComfyUI Installation](#comfyui-installation)
       * [ComfyUI Plugins](#comfyui-plugins)      
@@ -23,6 +26,49 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 # Purpose
 Take note of Multimodal related stuff
 
+# LLava  
+
+## Installation  
+1. Git clone this repo. 
+```bash
+git clone https://github.com/haotian-liu/LLaVA.git
+cd LLaVA
+```  
+
+1. Dependencies  
+
+Update python3.10 virtualenv package then create virtualenv  
+```bash
+sudo apt-get install python3.10-venv
+python3.10 -m venv  ~/virtualenv/llava
+```
+
+```bash
+pip install -r note_AI_Tools/Multimodal/requirements_llava.txt
+
+```
+
+## CLI Inference    
+```bash
+python -m llava.serve.cli --model-path llava-v1.5-7b --image-file "image_file.png" --load-8bit
+```
+
+## Reference  
+[haotian-liu/LLaVA](https://github.com/haotian-liu/LLaVA/tree/main)    
+
+[MoE-LLaVAをローカル環境で動かす](https://zenn.dev/tatexh/articles/36238073f4e299)  
+[PKU-YuanGroup/MoE-LLaVA](https://github.com/PKU-YuanGroup/MoE-LLaVA)    
+
+## Troubleshooting  
+1. PackageNotFoundError: No package metadata was found for bitsandbytes  
+[PackageNotFoundError: No package metadata was found for bitsandbytes](https://github.com/huggingface/diffusers/issues/3194)  
+
+```bash
+pip install bitsandbytes
+```
+
+1. ValueError: You can't pass `load_in_4bit`or `load_in_8bit` as a kwarg when passing `quantization_config` argument at the same time  
+
 
 # ComfyUI-LLaVA-Captioner  
 
@@ -30,7 +76,7 @@ Take note of Multimodal related stuff
 1. Git clone this repo. 
 ```bash
 git clone https://github.com/comfyanonymous/ComfyUI.git
-```
+```  
 
 1. Put your SD checkpoints (the huge ckpt/safetensors files) in: ComfyUI\models\checkpoints  
 *[ChilloutMix-ni-fp16.safetensors](https://huggingface.co/AnonPerson/ChilloutMix/tree/main)
