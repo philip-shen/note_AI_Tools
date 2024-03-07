@@ -62,9 +62,11 @@ python -m llava.serve.cli --model-path llava-v1.5-7b --image-file "image_file.pn
 
 ## Reference  
 [haotian-liu/LLaVA](https://github.com/haotian-liu/LLaVA/tree/main)    
+[mapluisch/LLaVA-CLI-with-multiple-images](https://github.com/mapluisch/LLaVA-CLI-with-multiple-images)  
 
 [MoE-LLaVAをローカル環境で動かす](https://zenn.dev/tatexh/articles/36238073f4e299)  
 [PKU-YuanGroup/MoE-LLaVA](https://github.com/PKU-YuanGroup/MoE-LLaVA)    
+[PKU-YuanGroup/Video-LLaVA](https://github.com/PKU-YuanGroup/Video-LLaVA)  
 
 ## Troubleshooting  
 1. PackageNotFoundError: No package metadata was found for bitsandbytes  
@@ -235,20 +237,19 @@ XTuner is an efficient, flexible and full-featured toolkit for fine-tuning large
 
 
 Stock-Market-Predcition-using-ResNet  
-[ jason887/Using-Deep-Learning-Neural-Networks-and-Candlestick-Chart-Representation-to-Predict-Stock-Market](https://github.com/jason887/Using-Deep-Learning-Neural-Networks-and-Candlestick-Chart-Representation-to-Predict-Stock-Market)
+[jason887/Using-Deep-Learning-Neural-Networks-and-Candlestick-Chart-Representation-to-Predict-Stock-Market](https://github.com/jason887/Using-Deep-Learning-Neural-Networks-and-Candlestick-Chart-Representation-to-Predict-Stock-Market)
 
-Running a Multimodal LLM locally with Ollama and LLaVA Feb 3, 2024](https://www.jeremymorgan.com/blog/generative-ai/how-to-multimodal-llm-local/)
+[Running a Multimodal LLM locally with Ollama and LLaVA Feb 3, 2024](https://www.jeremymorgan.com/blog/generative-ai/how-to-multimodal-llm-local/)
 [Run Open Source Multimodal Models Locally Using Ollama Feb 4, 2024](https://medium.com/@sudarshan-koirala/run-open-source-multimodal-models-locally-using-ollama-24cb1bb8b955)
 
 [日本語LLMでLLaVAの学習を行ってみた 2023-12-24](https://qiita.com/toshi_456/items/248005a842725f9406e3)  
 [tosiyuki/LLaVA-JP](https://github.com/tosiyuki/LLaVA-JP/tree/main)
 [LLaVA 2023-11-14](https://qiita.com/fuyu_quant/items/2692198b65d9763b45a2)
-[haotian-liu/LLaVA](https://github.com/haotian-liu/LLaVA)  
+
 [LLaVA: The Open-Source Multimodal Model That's Changing the Game 12/17/2023](https://cheatsheet.md/llm-leaderboard/LLaVA)
 [LLaVA: An open-source alternative to GPT-4V(ision) Jan 24, 2024](https://towardsdatascience.com/llava-an-open-source-alternative-to-gpt-4v-ision-b06f88ce8efa)
 [Vision models](https://ollama.com/blog/vision-models)
 
-[PKU-YuanGroup/Video-LLaVA](https://github.com/PKU-YuanGroup/Video-LLaVA)
 
 * []()  
 ![alt tag]()
