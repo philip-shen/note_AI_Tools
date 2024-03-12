@@ -15,8 +15,10 @@ Table of Contents
       * [ComfyUI Running](#comfyui-running)
       * [ComfyUI-LLaVA-Captioner Installation](#comfyui-llava-captioner-installation)
       * [Reference](#reference-1)
+   * [MiniGPT-4](#minigpt-4)
+      * [Reference](#reference-2)   
    * [Troubleshooting](#troubleshooting-1)
-   * [Reference](#reference-2)
+   * [Reference](#reference-3)
    * [h1 size](#h1-size)
       * [h2 size](#h2-size)
          * [h3 size](#h3-size)
@@ -219,6 +221,21 @@ ComfyUI LLaVA Captioner
 [WindowsPC に StabilityMatrix をインストールする方法 2023-10-28](https://qiita.com/zono_0/items/1638d9075497cf105512)  
 [ComfyUIをApple M1で試してみる 2024-01-09](https://qiita.com/TaitoOtani/items/be2298582e8e0b5d1a32)  
 [RadeonでkritaAIを動かす備忘録 2024-02-19](https://qiita.com/hikisari/items/bae429cd530606324041)
+
+
+# MiniGPT-4  
+
+
+
+## Reference  
+[Vision-CAIR/MiniGPT-4Public](https://github.com/Vision-CAIR/MiniGPT-4)    
+[RiseInRose/MiniGPT-4-ZH](https://github.com/RiseInRose/MiniGPT-4-ZH)  
+[Maknee/minigpt4.cpp](https://github.com/Maknee/minigpt4.cpp)    
+[icey-zhang/miniGPT4_guide](https://github.com/icey-zhang/miniGPT4_guide)    
+[km1994/LLMsNineStoryDemonTower](https://github.com/km1994/LLMsNineStoryDemonTower)  
+[bbbdbbb/MiniGPT-4-captions](https://github.com/bbbdbbb/MiniGPT-4-captions)  
+[xjdeng/MiniGPT4-image-labeler](https://github.com/xjdeng/MiniGPT4-image-labeler?tab=readme-ov-file)  
+[friedrichor/MiniGPT-4-training-note](https://github.com/friedrichor/MiniGPT-4-training-note)  
 
 
 # Troubleshooting
