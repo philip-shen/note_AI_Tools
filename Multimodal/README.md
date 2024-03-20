@@ -17,8 +17,11 @@ Table of Contents
       * [Reference](#reference-1)
    * [MiniGPT-4](#minigpt-4)
       * [Reference](#reference-2)   
+   * [Claude-3](#claude-3)
+     * [Tutorial Example](#tutorial-example)
+     * [Reference](#reference-3) 
    * [Troubleshooting](#troubleshooting-1)
-   * [Reference](#reference-3)
+   * [Reference](#reference-4)
    * [h1 size](#h1-size)
       * [h2 size](#h2-size)
          * [h3 size](#h3-size)
@@ -236,6 +239,22 @@ ComfyUI LLaVA Captioner
 [bbbdbbb/MiniGPT-4-captions](https://github.com/bbbdbbb/MiniGPT-4-captions)  
 [xjdeng/MiniGPT4-image-labeler](https://github.com/xjdeng/MiniGPT4-image-labeler?tab=readme-ov-file)  
 [friedrichor/MiniGPT-4-training-note](https://github.com/friedrichor/MiniGPT-4-training-note)  
+
+
+# Claude-3  
+
+## Tutorial Example  
+* 1 python3.10 -m venv  ~/virtualenv/claude.
+* 2 pip install -r requirements_llava.txt.
+* 3 Edit api_key.json to meet your situation.
+* 4 python read_images.py -conf api_key.json
+* 5 Enjoy it!
+
+[read_images.py](read_images.py)  
+
+## Reference  
+[Claude3 API使ってみる 2024/03/14](https://zenn.dev/iwatagumi/articles/fa441b7a36e6c0)
+
 
 
 # Troubleshooting
