@@ -2,5 +2,6 @@
     "api_key": "xxxx",
     "1st_model": "claude-3-opus-20240229",        
     "model": "claude-3-sonnet-20240229",
+    "mediatype":"image/png",
     "images_folder":"xxxx"
 }

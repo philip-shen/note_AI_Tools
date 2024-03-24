@@ -11,6 +11,7 @@ import pandas as pd
 import argparse
 import json
 from datetime import datetime
+from sys import platform
 
 strabspath=os.path.abspath(sys.argv[0])
 strdirname=os.path.dirname(strabspath)
@@ -22,8 +23,8 @@ sys.path.append('./_libs')
 from logger_setup import *
 import lib_misc
 
-def est_timer():
-    time_consumption, h, m, s= lib_misc.format_time(time.time() - t0)         
+def est_timer(start_time):
+    time_consumption, h, m, s= lib_misc.format_time(time.time() - start_time)         
     msg = 'Time Consumption: {}.'.format( time_consumption)#msg = 'Time duration: {:.2f} seconds.'
     logger.info(msg)
 
@@ -31,6 +32,7 @@ def get_png_files(folder_path):
     return glob.glob(f"{folder_path}/*.png")
     
 def get_jpg_files(folder_path):
+    logger.info(f"Search {folder_path}/*.jpg")
     return glob.glob(f"{folder_path}/*.jpg")
 
 
@@ -55,7 +57,7 @@ def process_image(image_path,
                   prompt= "用300個字描述在圖中的布林通道的趨勢",
                   model = "claude-3-sonnet-20240229",
                   mediatype= "image/jpeg"):
-    print(f"\n\n Processing {image_path}\n")
+    logger.info(f"\n\n Processing {image_path}\n")
 
     full_response = ''
     message = client.messages.create(
@@ -80,8 +82,8 @@ def process_image(image_path,
     )
 
     # Print the response to the console and add it to the full response
-    #print(message.content[0].text)    
-    print(message.content[0].text, end='', flush=True)
+    logger.info(message.content[0].text)    
+    #logger.info(message.content[0].text, end='', flush=True)
     full_response += message.content[0].text
 
     # Add a new row to the DataFrame
@@ -146,29 +148,40 @@ if __name__ == '__main__':
         api_key=json_data["api_key"],
     )
 
-    home = os.path.expanduser("~")
-    images_path= pathlib.Path(f'{home}/{json_data["images_folder"]}')
-
+    
+    if platform == "linux" or platform == "linux2":
+        home = os.path.expanduser("~")
+        images_path= pathlib.Path(f'{home}/{json_data["images_folder"]}')
+    elif platform == "darwin":
+        pass
+    elif platform == "win32":
+        images_path= pathlib.Path(f'{json_data["images_folder"]}')
+    
     df = load_or_create_dataframe('image_descriptions.csv')
 
-    #image_files = get_jpg_files(images_path)
-    image_files = get_png_files(images_path)
-    mediatype= "image/png"
+    if json_data["mediatype"] == "image/png":
+        image_files = get_png_files(images_path)        
+    elif json_data["mediatype"] == "image/jpeg":
+        image_files = get_jpg_files(images_path)
+    
+    mediatype= json_data["mediatype"]
 
     # image_files.sort()
     image_files.sort(key=lambda k: k[-7:-4])
 
-    print(image_files)
+    logger.info(f"image_files: {image_files}")
     print(df.head())
     
     model = json_data["model"]
     
     for image_file in image_files:
         if image_file not in df['image_file'].values:
+            time_process = time.time()
             process_image(image_file, model, mediatype=mediatype)
+            est_timer(time_process)
     
     # Save the DataFrame to a CSV file
     csv_filename = 'image_descriptions_{0:%Y%m%d_%H%M%S}.csv'.format(datetime.now())
     df.to_csv(csv_filename, index=False)
     
-    est_timer()
+    est_timer(t0)
