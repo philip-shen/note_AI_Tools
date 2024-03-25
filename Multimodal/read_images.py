@@ -119,7 +119,7 @@ def process_image_stream(image_path, model,
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='test WebDAV for fsspec module')
+    parser = argparse.ArgumentParser(description='describe image content with Claude 3')
     parser.add_argument('--conf', type=str, default='config.json', help='Config json')
     args = parser.parse_args()
     
