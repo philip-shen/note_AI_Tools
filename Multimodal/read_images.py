@@ -20,8 +20,8 @@ prevdirname=str_split[0]
 dirnamelog=os.path.join(strdirname,"logs")
 sys.path.append('./_libs')
 
-from logger_setup import *
 import lib_misc
+from logger_setup import *
 
 def est_timer(start_time):
     time_consumption, h, m, s= lib_misc.format_time(time.time() - start_time)         

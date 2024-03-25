@@ -3,5 +3,10 @@
     "1st_model": "claude-3-opus-20240229",        
     "model": "claude-3-sonnet-20240229",
     "mediatype":"image/png",
+    
+    "ticker": "2330.TW",
+    "up_trend_color": "red",
+    "down_trend_color": "green",
+    
     "images_folder":"xxxx"
 }
