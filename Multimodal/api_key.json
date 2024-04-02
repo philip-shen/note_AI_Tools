@@ -3,6 +3,9 @@
     "1st_model": "claude-3-opus-20240229",        
     "model": "claude-3-sonnet-20240229",
     "mediatype":"image/png",
+
+    "tts_model": "tts_models/multilingual/multi-dataset/xtts_v2",
+    "speaker_wav": "SPEECH_speaker_02.wav",
     
     "ticker": "2330.TW",
     "up_trend_color": "red",
