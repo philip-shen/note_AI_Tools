@@ -290,9 +290,9 @@ INFO: Time Consumption: 10s.
 <img src="images/read_images_TTS_3105.png" width="1000" height="500">
 
 ## Reference  
-[Claude3 API使ってみる 2024/03/14](https://zenn.dev/iwatagumi/articles/fa441b7a36e6c0)
-[coqui-ai/TTS](https://github.com/coqui-ai/TTS?tab=readme-ov-file) 
-[coqui-ai/TTS Installation](https://github.com/coqui-ai/TTS?tab=readme-ov-file#installation)  
+[Claude3 API使ってみる 2024/03/14](https://zenn.dev/iwatagumi/articles/fa441b7a36e6c0)   
+[coqui-ai/TTS](https://github.com/coqui-ai/TTS?tab=readme-ov-file)   
+[coqui-ai/TTS Installation](https://github.com/coqui-ai/TTS?tab=readme-ov-file#installation)   
 
 
 # Troubleshooting
