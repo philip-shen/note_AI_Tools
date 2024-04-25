@@ -275,6 +275,14 @@ INFO: Time Consumption: 10s.
 ## Reference  
 [Claude3 API使ってみる 2024/03/14](https://zenn.dev/iwatagumi/articles/fa441b7a36e6c0)
 
+[Claude 3の画像認識能力を試す - Opus/Sonnet/Haikuの違いは? 2024-03-19](https://qiita.com/cygkichi/items/3b65bc92200d54a07bd1)  
+[cygkichi/blog/claude3-vision](https://github.com/cygkichi/blog/blob/main/claude3-vision/claud3-vision.ipynb)  
+
+[Low Performance PDF Parserのことはじめ。LLMとUnstructuredでPDFをパースする。2024/03/17](https://zenn.dev/yamada_quantum/articles/17aff55dedbaf1)  
+[LLM＋OCRでほぼ全自動の論文解説XBot作成した 2024/04/23](https://zenn.dev/yamada_quantum/articles/dbe91ba4f15cf8)  
+[Kota-Yamaguchi/lphp-pdf-parser](https://github.com/Kota-Yamaguchi/lphp-pdf-parser)  
+
+
 # Claude-3 and TTS 
 
 ## Tutorial Example  
