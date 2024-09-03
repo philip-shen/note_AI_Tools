@@ -52,6 +52,7 @@ Take note of stock chart related stuff
 [Pytorchで日経平均の予測2 2020-09-17](https://qiita.com/hoolly728/items/9454e2b349a48aee6b18)
 [Using Deep Learning Neural Networks and Candlestick Chart Representation to Predict Stock Market](https://arxiv.org/pdf/1903.12258.pdf)
 
+[rosdyana / Going-Deeper-with-Convolutional-Neural-Network-for-Stock-Market-Prediction](https://github.com/rosdyana/Going-Deeper-with-Convolutional-Neural-Network-for-Stock-Market-Prediction)
 [jason887 /Using-Deep-Learning-Neural-Networks-and-Candlestick-Chart-Representation-to-Predict-Stock-Market](https://github.com/jason887/Using-Deep-Learning-Neural-Networks-and-Candlestick-Chart-Representation-to-Predict-Stock-Market)
     
 [InformerとAlpha Vantage APIを用いた株価予測 2023/03/29](https://zenn.dev/ryo_tan/articles/4dce04c65c40b9)
