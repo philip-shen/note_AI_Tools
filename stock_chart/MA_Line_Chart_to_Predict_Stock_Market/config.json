@@ -1,0 +1,6 @@
+{
+    "path_raw_dataset": ["z:/xxx/", "z:/xxx/"],
+    "reg_date_string_output_fname": [["202[0-2]-..-.._+", "2020-2022.csv"],
+                                    ["202[2-4]-..-.._+", "2022-2024.csv"]
+                                    ] 
+}

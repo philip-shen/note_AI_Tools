@@ -66,6 +66,12 @@ Take note of stock chart related stuff
 [shiibashi / qiita](https://github.com/shiibashi/qiita/tree/master/8)  
 [DEEP STOCK REPRESENTATION LEARNING: FROM CANDLESTICK CHARTS TO INVESTMENT DECISIONS](https://arxiv.org/pdf/1709.03803.pdf)  
 [Stock Chart Pattern recognition with Deep Learning](https://arxiv.org/pdf/1808.00418.pdf)  
+[画像認識＋強化学習で株の自動売買システムをつくる 2020-12-04](https://qiita.com/shiibass/items/d1e1c89fbeb082cb856b)
+[株の自動売買アルゴリズムを強化学習でつくる 2020-11-15](https://qiita.com/shiibass/items/a930340ad07f80812735)    
+[株の自動売買のための板OCR 2020-04-01](https://qiita.com/shiibass/items/20235d3952a804e1a1e9)  
+
+[１日10時間株価予測AIを作り続ける　4か月目 2020-02-29](https://qiita.com/Lulu_die_Zweite/items/7934b4a2d290d1a765f4)  
+[LulutasoAI](https://github.com/LulutasoAI)  
 
 
 * []()  
